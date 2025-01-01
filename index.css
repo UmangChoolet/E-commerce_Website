@@ -269,8 +269,333 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-image: url(img/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
 }
 
 #banner span {
     color: red;
+}
+
+#banner h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+button.normal {
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+}
+
+#banner button:hover {
+    background-color: brown;
+    color: rgb(130, 182, 238);
+}
+
+#sales-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sales-banner .banner-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(img/b1g1_banner.jpg);
+    min-width: 650px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sales-banner .banner-box2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(img/summer_sale_banner.jpg);
+    min-width: 650px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+button.white {
+    font-size: 13px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 600;
+    padding: 11px 18px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+#sales-banner .banner-box h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#sales-banner .banner-box h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+}
+
+#sales-banner .banner-box span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+#sales-banner .banner-box:hover button {
+    background-color: green;
+    border: 1px solid green;
+}
+
+#sales-banner .banner-box2 h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#sales-banner .banner-box2 h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+}
+
+#sales-banner .banner-box2 span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+#sales-banner .banner-box2:hover button {
+    background-color: green;
+    border: 1px solid green;
+}
+
+#more-banners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#more-banners .more-box1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(img/Seasonal_sale-banner.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#more-banners .more-box2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(img/winter-banner.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#more-banners .more-box3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(img/Stylish_Fits.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#more-banners .more-box1 h2 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+}
+
+#more-banners .more-box2 h2 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+}
+
+#more-banners .more-box3 h2 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+}
+
+#more-banners .more-box1 h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #ec544e;
+}
+
+#more-banners .more-box2 h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #ec544e;
+}
+
+#more-banners .more-box3 h3 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #ec544e;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/newsletter_cover.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter .newsletter-text h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter .newsletter-text p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #818ea0;
+}
+
+#newsletter .newsletter-text span {
+    color: #ffbd27;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter .newsletter-form {
+    display: flex;
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #041e42;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copywright {
+    width: 100%;
+    text-align: center;
 }
